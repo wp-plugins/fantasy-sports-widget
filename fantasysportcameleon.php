@@ -4,10 +4,10 @@
 *Plugin URI: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 *Description: Fantasy Sports RSS Network
 *Author: Kurt Turner
-*Version: 1
+*Version: 2
 *Author URI: http://fantasyknuckleheads.com
 *
-*Special thanks to Ryan McCue @ rotorised.com for the Wordpress plugin assitance and Simplepie support.
+*Special thanks to Ryan McCue @ rotorised.com for the Simplepie support.
 *
 *This program is distributed in the hope that it will be useful,
 *but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -35,10 +35,10 @@ class Fantasy_Widget extends WP_Widget {
                 $show_powered = isset( $instance['show_powered'] ) ? $instance['show_powered'] : false;
                 /* Before widget (defined by themes). */
   echo $before_widget . $before_title . 'Fantasy Sports' . $after_title;
-                   echo ('<a target="_blank" href="http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/" title="Get this widget for your website and deliver your readers the best Fantasy Sports content from around the web. This is the hottest Fantasy Sports widget on the market containing fantasy football, fantasy baseball, fantasy hockey and fantasy basketball rankings, news and advice."><small>Get This or Add Your Feed</small></a><iframe longdesc="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football, Fantasy Baseball, Fantasy Basketball and Fantasy Hockey Rankings, News and Advice." title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football, Fantasy Baseball, Fantasy Basketball and Fantasy Hockey Rankings, News and Advice." id="Fantasy Football" frameBorder="0" scrolling=no width="100%" frameborder="0" height="304px" src="http://fantasyknuckleheads.com/mashed/feedframecameleon.php"></iframe>'); 
+                   echo ('<a target="_blank" href="http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/" title="Get this widget for your website and deliver your readers the best Fantasy Sports content from around the web. This is the hottest Fantasy Sports widget on the market containing fantasy football, fantasy baseball, and fantasy basketball rankings, news and advice."><small>Get This or Add Your Feed</small></a><iframe longdesc="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, waiver wire, news, start sit and sleepers" title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, sleepers and Fantasy Baseball News and Advice." id="Fantasy Football" frameBorder="0" scrolling=no width="100%" frameborder="0" height="304px" src="http://fantasyknuckleheads.com/mashed/feedframecameleon.php"></iframe>'); 
                 /* If show powered was selected, display the user's powered. */
                 if ( $show_powered )
-                        printf( '<p>' . __('<small>Powered By:</small><a target="_blank" href="http://fantasyknuckleheads.com" title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football, Fantasy Baseball, Fantasy Basketball and Fantasy Hockey Rankings, News and Advice."><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>', $powered );
+                        printf( '<p>' . __('<small>Powered By:</small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy Football Rankings, Fantasy Football Sleepers, Fantasy football start sit, fantasy footabll waiver wire."><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>', $powered );
                 /* After widget (defined by themes). */
                 echo $after_widget;
         }
@@ -63,7 +63,7 @@ $instance = wp_parse_args( (array) $instance, $defaults ); ?>
                 <!-- Show Powered by? -->
                 <p>
                         <input class="checkbox" type="checkbox" <?php checked( $instance['show_powered'], true ); ?> id="<?php echo $this->get_field_id( 'show_powered' ); ?>" name="<?php echo $this->get_field_name( 'show_powered' ); ?>" />
-        <label for="<?php echo $this->get_field_id( 'show_powered' ); ?>">Display powered by link?</label> 
+        <label for="<?php echo $this->get_field_id( 'show_powered' ); ?>">Leave this checked to show love, many thanks</label> 
 </p>
         <?php
         }

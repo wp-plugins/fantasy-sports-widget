@@ -3,8 +3,8 @@ Contributors: Ryan McCue, Kurt Turner
 Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 Tags: rss, fantasy sports, fantasy football, news, fantasy baseball, fantasy hockey, sports,
 Requires at least: 2.8
-Tested up to: 3.0
-Stable tag: 1.0
+Tested up to: 3.1.3
+Stable tag: 2.0
 
 The Fantasy Knuckleheads Fantasy Sports Widget is an aggregation of the web's best fantasy sports content.
 
@@ -27,7 +27,7 @@ The fantasy sports widget is an aggregation of our "Fantasy Sports Networks" mos
 
 = How do I add my website to the Fantasy Sports Network? =
 
-Send request to kurt@fantasyknuckleheads.com. Only established websites with quality fantasy sports content are considered for inclusion to this fantasy sports network. Only those webmasters which run this widget on their website will have their content displayed on the widget. If you remove the widget from your website your website will be programmatically removed from the network. Basically, if you run the widget on your website then your website will be included in the network syndication and if you ever remove the widget you’ll be removed from the network.
+Send request to kurt@fantasyknuckleheads.com. Only established websites with quality fantasy sports content are considered for inclusion to this fantasy sports network. Only those webmasters which run this widget on their website will have their content displayed on the widget. If you remove the widget from your website your website will be programmatically removed from the network. Basically, if you run the widget on your website then your website will be included in the network syndication and if you ever remove the widget you?ll be removed from the network.
 
 
 == Screenshots ==
@@ -36,10 +36,16 @@ http://fantasyknuckleheads.com/wp-content/uploads/2010/05/Fantasy-sports-wp-plug
 
 == Changelog ==
 
+= 2.0 =
+* first stable version
+
 = 1.0 =
 * first stable version
 
 == Upgrade Notice ==
+
+= 2.0 =
+Stable to 3.1.3
 
 = 1.0 =
 Stable to 3.0
