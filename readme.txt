@@ -4,7 +4,7 @@ Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 Tags: rss, fantasy sports, fantasy football, news, fantasy baseball, fantasy hockey, sports,
 Requires at least: 2.8
 Tested up to: 3.1.3
-Stable tag: 2.0
+Stable tag: 2.1
 
 The Fantasy Knuckleheads Fantasy Sports Widget is an aggregation of the web's best fantasy sports content.
 
@@ -36,8 +36,12 @@ http://fantasyknuckleheads.com/wp-content/uploads/2010/05/Fantasy-sports-wp-plug
 
 == Changelog ==
 
+
+= 2.1 =
+* ADDED noframe support
+
 = 2.0 =
-* first stable version
+* fix css issue with IE 9
 
 = 1.0 =
 * first stable version

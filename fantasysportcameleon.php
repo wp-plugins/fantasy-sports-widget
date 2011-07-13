@@ -4,7 +4,7 @@
 *Plugin URI: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 *Description: Fantasy Sports RSS Network
 *Author: Kurt Turner
-*Version: 2.0
+*Version: 2.1
 *Author URI: http://fantasyknuckleheads.com
 *
 *Special thanks to Ryan McCue @ rotorised.com for the Simplepie support.
@@ -35,7 +35,9 @@ class Fantasy_Widget extends WP_Widget {
                 $show_powered = isset( $instance['show_powered'] ) ? $instance['show_powered'] : false;
                 /* Before widget (defined by themes). */
   echo $before_widget . $before_title . 'Fantasy Sports' . $after_title;
-                   echo ('<a target="_blank" href="http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/" title="Get this widget for your website and deliver your readers the best Fantasy Sports content from around the web. This is the hottest Fantasy Sports widget on the market containing fantasy football, fantasy baseball, and fantasy basketball rankings, news and advice."><small>Get This or Add Your Feed</small></a><iframe longdesc="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, waiver wire, news, start sit and sleepers" title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, sleepers and Fantasy Baseball News and Advice." id="Fantasy Football" frameBorder="0" scrolling=no width="100%" frameborder="0" height="304px" src="http://fantasyknuckleheads.com/mashed/feedframecameleon.php"></iframe>'); 
+                   echo ('<a target="_blank" href="http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/" title="Get this widget for your website and deliver your readers the best Fantasy Sports content from around the web. This is the hottest Fantasy Sports widget on the market containing fantasy football, fantasy baseball, and fantasy basketball rankings, news and advice."><small>Get This or Add Your Feed</small></a><iframe longdesc="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, waiver wire, news, start sit and sleepers" title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, sleepers and Fantasy Baseball News and Advice." id="Fantasy Football" frameBorder="0" scrolling=no width="100%" frameborder="0" height="304px" src="http://fantasyknuckleheads.com/mashed/feedframecameleon.php"></iframe><noframes> 
+<a href="http://fantasyknuckleheads.com" title="Fantasy Football Rankings, Fantasy Football Sleepers, Fantasy football start sit, fantasy football waiver wire."><b>Fantasy Football</b></a>
+</noframes>'); 
                 /* If show powered was selected, display the user's powered. */
                 if ( $show_powered )
                         printf( '<p>' . __('<small>Powered By: </small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy Football Rankings, Fantasy Football Sleepers, Fantasy football start sit, fantasy football waiver wire."><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>', $powered );
