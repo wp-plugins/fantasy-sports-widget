@@ -4,7 +4,7 @@
 *Plugin URI: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 *Description: Fantasy Sports RSS Network
 *Author: Kurt Turner
-*Version: 2.1
+*Version: 2.2
 *Author URI: http://fantasyknuckleheads.com
 *
 *Special thanks to Ryan McCue @ rotorised.com for the Simplepie support.
@@ -40,7 +40,7 @@ class Fantasy_Widget extends WP_Widget {
 </noframes>'); 
                 /* If show powered was selected, display the user's powered. */
                 if ( $show_powered )
-                        printf( '<p>' . __('<small>Powered By: </small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy Football Rankings, Fantasy Football Sleepers, Fantasy football start sit, fantasy football waiver wire."><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>', $powered );
+                        printf( '<p>' . __('<small>Powered By: </small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy fooball"><b>Fantasy Football</b></a>', 'fantasy.') . '</p>', $powered );
                 /* After widget (defined by themes). */
                 echo $after_widget;
         }
