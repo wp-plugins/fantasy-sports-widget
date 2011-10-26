@@ -1,10 +1,10 @@
 === Fantasy Sports Widget ===
-Contributors: Ryan McCue, Kurt Turner
+Contributors: Kurt Turner
 Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
-Tags: rss, fantasy sports, fantasy football, news, fantasy baseball, fantasy hockey, sports,
+Tags: rss, fantasy sports, fantasy football, news, fantasy baseball, fantasy hockey, sports, NFL, fantasy football blog, network
 Requires at least: 2.8
 Tested up to: 3.2.1
-Stable tag: 2.2
+Stable tag: 2.4
 
 The Fantasy Knuckleheads Fantasy Sports Widget is an aggregation of the web's best fantasy sports content.
 
@@ -35,6 +35,12 @@ Send request to kurt@fantasyknuckleheads.com. Only established websites with qua
 http://fantasyknuckleheads.com/wp-content/uploads/2010/05/Fantasy-sports-wp-plugin.jpg
 
 == Changelog ==
+
+= 2.4 =
+* text correction and 3.2 bug
+
+= 2.3 =
+* add no frame support
 
 = 2.2 =
 * Corrected spelling and updates links to site
