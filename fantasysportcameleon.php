@@ -4,7 +4,7 @@
 *Plugin URI: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 *Description: Fantasy Sports RSS Network
 *Author: Kurt Turner
-*Version: 2.4
+*Version: 2.5
 *Author URI: http://fantasyknuckleheads.com
 *
 *Special thanks to Ryan McCue @ rotorised.com for the Simplepie support.
@@ -65,7 +65,7 @@ $instance = wp_parse_args( (array) $instance, $defaults ); ?>
                 <!-- Show Powered by? -->
                 <p>
                         <input class="checkbox" type="checkbox" <?php checked( $instance['show_powered'], true ); ?> id="<?php echo $this->get_field_id( 'show_powered' ); ?>" name="<?php echo $this->get_field_name( 'show_powered' ); ?>" />
-        <label for="<?php echo $this->get_field_id( 'show_powered' ); ?>">Leave this alone to power by link, many thanks</label> 
+        <label for="<?php echo $this->get_field_id( 'show_powered' ); ?>">Leave this alone to power link, many thanks</label> 
 </p>
         <?php
         }

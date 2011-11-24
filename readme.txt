@@ -1,19 +1,21 @@
 === Fantasy Sports Widget ===
 Contributors: Kurt Turner
 Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
-Tags: rss, fantasy sports, fantasy football, news, fantasy baseball, fantasy hockey, sports, NFL, fantasy football blog, network
+Tags: fantasy football, NFL, news, widget
 Requires at least: 2.8
 Tested up to: 3.2.1
-Stable tag: 2.4
+Stable tag: 2.5
 
-The Fantasy Knuckleheads Fantasy Sports Widget is an aggregation of the web's best fantasy sports content.
+The Fantasy Knuckleheads Fantasy Football Sports Widget is an aggregation of the web's best NFL fantasy football content.
 
 
 == Description ==
 
-Imagine all of the Best Fantasy Sports sites from around the internet aggregated into one place, a widget you can easily embed into your website or as a Wordpress Plugin. Well you can stop wishing, Fantasy Knuckleheads has put together an aggregation of the Webs Best Fantasy Sports Content ready to easily display on your website.
+Imagine the Best Fantasy Football websites from around the Internet aggregated into one place nested into a widget you can easily embed into your website or as a Wordpress Plugin. Well you can stop wishing, Fantasy Knuckleheads has put together an aggregation of the Webs Best NFL Fantasy Football Content ready to easily display on your website.
 
-The fantasy sports widget is an aggregation of our "Fantasy Sports Networks" most recent articles. Our network consist of sites that produce <a href="http://fantasyknuckleheads.com" title="fantasy football">fantasy football</a> content, fantasy baseball content, fantasy hockey content, and fantasy basketball content. The aggregation is based on RSS feeds. The RSS Feed for the network is http://feeds.feedburner.com/fantasyknuckleheads/fantasysports if you would like to subscribe via RSS.
+<b>We have many high quality website nested into our widget, so you're guaranteed to get high quality content from around the web.</b>
+
+The fantasy sports widget is an aggregation of our "Fantasy Sports Networks" most recent articles. Our network consist of sites that produce <a href="http://fantasyknuckleheads.com" title="fantasy football">fantasy football</a> content. The aggregation is based on RSS feeds. The RSS Feed for the network is http://feeds.feedburner.com/fantasyknuckleheads/fantasysports if you would like to subscribe via RSS.
 
 
 == Installation ==
@@ -32,9 +34,12 @@ Send request to kurt@fantasyknuckleheads.com. Only established websites with qua
 
 == Screenshots ==
 
-http://fantasyknuckleheads.com/wp-content/uploads/2010/05/Fantasy-sports-wp-plugin.jpg
+<a href="http://fantasyknuckleheads.com/"><img title="fantasy-football-widget" src="http://fantasyknuckleheads.com/wp-content/uploads/2011/11/fantasy-football-widget.jpg" alt="" width="315" height="388" /></a>
 
 == Changelog ==
+
+= 2.5 =
+* text addition and screenshoot update
 
 = 2.4 =
 * text correction and 3.2 bug
