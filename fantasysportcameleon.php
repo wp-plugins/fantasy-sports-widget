@@ -4,7 +4,7 @@
 *Plugin URI: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 *Description: Fantasy Sports RSS Network
 *Author: Kurt Turner
-*Version: 2.5
+*Version: 2.7
 *Author URI: http://fantasyknuckleheads.com
 *
 *Special thanks to Ryan McCue @ rotorised.com for the Simplepie support.
@@ -32,15 +32,15 @@ class Fantasy_Widget extends WP_Widget {
         function widget( $args, $instance ) {
                 extract( $args );
                 /* Our variables from the widget settings. */
-                $show_powered = isset( $instance['show_powered'] ) ? $instance['show_powered'] : false;
+				$authorcredit	= isset($instance['author_credit']) ? $instance['author_credit'] : false ; // give plugin author credit
                 /* Before widget (defined by themes). */
-  echo $before_widget . $before_title . 'Fantasy Sports' . $after_title;
+  echo $before_widget . $before_title . 'Fantasy Blog Network' . $after_title;
                    echo ('<a target="_blank" href="http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/" title="Get this widget for your website and deliver your readers the best Fantasy Sports content from around the web. This is the hottest Fantasy Sports widget on the market containing fantasy football, fantasy baseball, and fantasy basketball rankings, news and advice."><small>Get This or Add Your Feed</small></a><iframe longdesc="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, waiver wire, news, start sit and sleepers" title="Home of the one and only Fantasy Sports Widget. Fantasy Knuckleheads is a great source for Fantasy Football rankings, sleepers and Fantasy Baseball News and Advice." id="Fantasy Football" frameBorder="0" scrolling=no width="100%" frameborder="0" height="304px" src="http://fantasyknuckleheads.com/mashed/feedframecameleon.php"></iframe><noframes> 
 <a href="http://fantasyknuckleheads.com" title="Fantasy Football Rankings, Fantasy Football Sleepers, Fantasy football start sit, fantasy football waiver wire."><b>Fantasy Football for all you knuckleheads</b></a>
 </noframes>'); 
                 /* If show powered was selected, display the user's powered. */
-                if ( $show_powered )
-                        printf( '<p>' . __('<small>Powered By: </small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy football for all you Knuckleheads"><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>', $powered );
+                if ( $authorcredit )
+                        printf( '<p>' . __('<small>Powered By: </small><a target="_blank" href="http://fantasyknuckleheads.com" title="Fantasy football for all you Knuckleheads"><b>Fantasy Knuckleheads</b></a>', 'fantasy.') . '</p>' );
                 /* After widget (defined by themes). */
                 echo $after_widget;
         }
@@ -49,23 +49,21 @@ class Fantasy_Widget extends WP_Widget {
          */
         function update( $new_instance, $old_instance ) {
                 $instance = $old_instance;
-                $instance['powered'] = $new_instance['powered'];
-                $instance['show_powered'] = $new_instance['show_powered'];
-                return $instance;
+$instance['author_credit'] = $new_instance['author_credit'];
+			return $instance;
         }
         /**
          * Displays the widget settings controls on the widget panel.
          * Make use of the get_field_id() and get_field_name() function
          * when creating your form elements. This handles the confusing stuff.
-         */
-        function form( $instance ) {
+         */	 
+function form( $instance ) {
                 /* Set up some default widget settings. */
-                 $defaults = array( 'title' => __('Fantasy', 'fantasy'), 'powered' => __('true', 'show_powered'), 'powered' => 'true', 'show_powered' => true );
+                 $defaults = array( 'title' => __('Fantasy', 'fantasy'), 'authorcredit' => __('false', 'author_credit'), 'authorcredit' => 'false', 'author_credit' => off );
 $instance = wp_parse_args( (array) $instance, $defaults ); ?>
                 <!-- Show Powered by? -->
-                <p>
-                        <input class="checkbox" type="checkbox" <?php checked( $instance['show_powered'], true ); ?> id="<?php echo $this->get_field_id( 'show_powered' ); ?>" name="<?php echo $this->get_field_name( 'show_powered' ); ?>" />
-        <label for="<?php echo $this->get_field_id( 'show_powered' ); ?>">Leave this alone to power link, many thanks</label> 
+<p><input class="checkbox" type="checkbox" <?php checked( $instance['author_credit'], on ); ?> id="<?php echo $this->get_field_id( 'author_credit' ); ?>" name="<?php echo $this->get_field_name( 'author_credit' ); ?>" />
+        <label for="<?php echo $this->get_field_id( 'author_credit' ); ?>">Check to be included into network AND show Powered by Link</label> 
 </p>
         <?php
         }
