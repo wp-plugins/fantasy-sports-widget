@@ -4,7 +4,7 @@ Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 Tags: fantasy football, NFL, news, widget
 Requires at least: 2.8
 Tested up to: 3.4.1
-Stable tag: 2.7
+Stable tag: 2.8
 
 The Fantasy Knuckleheads Fantasy Football Sports Widget is an aggregation of the web's best NFL fantasy football content.
 
@@ -15,7 +15,7 @@ Imagine the Best Fantasy Football websites from around the Internet aggregated i
 
 <b>We have many high quality website nested into our widget, so you're guaranteed to get high quality content from around the web.</b>
 
-The fantasy sports widget is an aggregation of our "Fantasy Sports Networks" most recent articles. Our network consist of sites that produce <a href="http://fantasyknuckleheads.com" title="fantasy football">fantasy football</a> content. The aggregation is based on RSS feeds. The RSS Feed for the network is http://feeds.feedburner.com/fantasyknuckleheads/fantasysports if you would like to subscribe via RSS.
+The fantasy sports widget is an aggregation of our "Fantasy Sports Networks" most recent articles. Our network consist of sites that produce <a href="http://fantasyknuckleheads.com" title="fantasy knuckleheads">fantasy football</a> content. The aggregation is based on RSS feeds. The RSS Feed for the network is http://feeds.feedburner.com/fantasyknuckleheads/fantasysports if you would like to subscribe via RSS.
 
 
 == Installation ==
@@ -37,6 +37,9 @@ Send request to kurt@fantasyknuckleheads.com. Only established websites with qua
 <a href="http://fantasyknuckleheads.com/"><img title="fantasy-football-widget" src="http://fantasyknuckleheads.com/wp-content/uploads/2011/11/fantasy-football-widget.jpg" alt="" width="315" height="388" /></a>
 
 == Changelog ==
+
+= 2.8 =
+* its already loaded in less than 1 second, but we made it even faster
 
 = 2.7 =
 * fixed powered by
