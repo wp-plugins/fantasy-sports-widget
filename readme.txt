@@ -3,8 +3,8 @@ Contributors: Kurt Turner
 Donate link: http://fantasyknuckleheads.com/subscribe/fantasy-sports-widget/
 Tags: fantasy football, NFL, news, widget
 Requires at least: 2.8
-Tested up to: 3.4.1
-Stable tag: 2.8
+Tested up to: 3.9.1
+Stable tag: 2.9
 
 The Fantasy Knuckleheads Fantasy Football Sports Widget is an aggregation of the web's best NFL fantasy football content.
 
@@ -37,6 +37,9 @@ Send request to kurt@fantasyknuckleheads.com. Only established websites with qua
 <a href="http://fantasyknuckleheads.com/"><img title="fantasy-football-widget" src="http://fantasyknuckleheads.com/wp-content/uploads/2011/11/fantasy-football-widget.jpg" alt="" width="315" height="388" /></a>
 
 == Changelog ==
+
+= 2.9 =
+* added maxcdn for image hosting
 
 = 2.8 =
 * its already loaded in less than 1 second, but we made it even faster
